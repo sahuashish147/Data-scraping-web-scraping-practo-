@@ -5,7 +5,7 @@ Here I used Python selenium for automatic scrolling till the end of the page and
 Python - 3
 complete the certain task like:- pip install selenium, bs4, pandas, requests (in your command prompt)
 
-## python IDE:-
+## python IDE
 ## Import below mentioned python modules
 
     import pandas as pd
