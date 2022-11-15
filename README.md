@@ -83,6 +83,6 @@ complete the certain task like:- pip install selenium, bs4, pandas, requests (in
 Here I provided the dictionary of column name as keys and lists as values;
 {variable_name2(column1 name) : [list of values] ,  variable_name2(column2 name) : [list of values],.....n number of columns can be created like this}
 
-    df_bglr = pd.DataFrame({"Name":doc_name, "experience" : exp, 'fee': fee, 'types':types, 'city':city, 'rating':rating,
+    df = pd.DataFrame({"Name":doc_name, "experience" : exp, 'fee': fee, 'types':types, 'city':city, 'rating':rating,
                   "feedback": feedback})
-    df_bglr.info() #this gives the information about database; number of columns, rows, null values, datatype 
+    df.info() #this gives the information about database; number of columns, rows, null values, datatype 
