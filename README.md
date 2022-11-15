@@ -1,6 +1,6 @@
 # Infinite-Scroll-web-scraping
 Web scraping for the sites which includes infinite scrolling.
-Here I used Python selenium for automatic scrolling till the end of the page and then used beautiful soup module for extraction of data from that scrolled page.
+Here I used Python selenium for automatic scrolling till the end of the page and then used beautiful soup module for extraction of data from that scrolled page and pandas for data storation into table format (rows and columns).
 
 Python - 3
 complete the certain task like:- pip install selenium, bs4, pandas, requests (in your command prompt)
