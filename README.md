@@ -25,7 +25,8 @@ complete the certain task like:- pip install selenium, bs4, pandas, requests (in
     new_height = 0 
 
     while True:
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight-1500);") #scroll to the last page 
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight-1500);") 
+        #scroll to the last page 
         #here i subracted with 1500 beacuse I don't want to go the bottom of the page, I just want to scroll just above the bottom of the page
         #(if you want to scroll down to the bottom, then remove -1500 from the code)
         
